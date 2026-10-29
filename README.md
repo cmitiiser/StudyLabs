@@ -1,17 +1,20 @@
-# Quartz v5
+<div align='center'>
+<h1>StudyLabs</h1>
+<img src='https://img.shields.io/badge/Quartz-jzhao-red'></img>
+<img src='https://img.shields.io/badge/License-MIT-yellow'></img>
+<br><br><br>
+</div>
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+A repository of lecture notes, problem sets, and working notes maintained by mathematics students at **IISER Thiruvananthapuram**. 
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Created and maintained by [SivasankaranRS](https://github.com/sivasankaranrs) and [AKwasTaken](https://github.com/akwastaken).
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+---
 
-## Sponsors
+## Contributing
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+If you want to add or fix notes, feel free to open a pull request or reach out directly. 
+
+*Shared for educational purposes.*
+
