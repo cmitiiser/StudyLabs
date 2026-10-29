@@ -9,7 +9,7 @@
 <br><br><br>
 </div>
 
-A repository of lecture notes, problem sets, and working notes maintained by mathematics students at [**IISER Thiruvananthapuram**](https://iisertvm.ac.in). 
+A repository of lecture notes, problem sets, and working notes maintained by mathematics students at [**IISER Thiruvananthapuram**](https://iisertvm.ac.in). This whole bunch are typed/handwritten notes, so it WILL have a lot of logic and syntax issues throughout, hence please do crosscheck.
 
 Created and maintained by [SivasankaranRS](https://github.com/sivasankaranrs) and [AKwasTaken](https://github.com/akwastaken).
 

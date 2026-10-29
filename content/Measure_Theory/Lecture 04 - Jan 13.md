@@ -22,14 +22,19 @@ Therefore:
 
 $$\mu \left( \bigcup_{j=1}^{\infty} E_j \right) = \mu \left( \bigcup_{j=1}^{\infty} F_j \right) = \sum_{j=1}^{\infty} \mu(F_j) = \sum_{j=1}^{\infty} \mu \left( E_j - \bigcup_{l=1}^{j-1} E_l \right) \leq \sum_{j=1}^{\infty} \mu(E_j)$$
 
-iii) Set $F_k = E_k - E_{k-1}, k \geq 2, F_1 = E_1$. Then $\{ F_k \}$ is a disjoint collection in $\mathcal{F}$ with $$\bigcup_{k=1}^{n} F_k = E_n \implies E = \bigcup_{k=1}^{\infty} F_k$$$$\therefore \mu(E) = \sum_{k=1}^{\infty} \mu(F_k) = \lim_{n \to \infty} \sum_{k=1}^{n} \mu(F_k) = \lim_{n \to \infty} \mu(E_n)$$
+iii) Set $F_k = E_k - E_{k-1}, k \geq 2, F_1 = E_1$. Then $\{ F_k \}$ is a disjoint collection in $\mathcal{F}$ with 
+
+$$\bigcup_{k=1}^{n} F_k = E_n \implies E = \bigcup_{k=1}^{\infty} F_k$$
+$$\therefore \mu(E) = \sum_{k=1}^{\infty} \mu(F_k) = \lim_{n \to \infty} \sum_{k=1}^{n} \mu(F_k) = \lim_{n \to \infty} \mu(E_n)$$
 
 iv) Set $G_k = E_1 \setminus E_{k+1}, k \geq 1$; Then $G_k$ is an increasing sequence to $E_1 - \bigcap_{k \geq 1} E_k$.
 
 $$\lim_{k \to \infty} \mu(G_k) = \mu(E_1 - E)$$
 
 $$\implies \mu(E_1) - \mu(E) = \lim_{k \to \infty} (\mu(E_1) - \mu(E_{k+1}))$$
-$$\implies \lim_{k \to \infty} \mu(E_{k+1}) = \mu(E)$$ 
+
+$$\implies \lim_{k \to \infty} \mu(E_{k+1}) = \mu(E)$$
+
 # Theorem
 
 Let $\mathcal{S} \subseteq \mathcal{P}(\Omega)$ be a semi algebra and $\mu : \mathcal{S} \to [0, \infty)$ be an additive (respectively $\sigma$-additive) set function. Then there exists a set function $\gamma : \mathcal{A}(\mathcal{S}) \to [0, \infty)$ which is additive (respectively $\sigma$-additive):
@@ -38,7 +43,7 @@ Let $\mathcal{S} \subseteq \mathcal{P}(\Omega)$ be a semi algebra and $\mu : \ma
 2. If there exist two additive (respectively $\sigma$-additive) set functions $\gamma_1$ and $\gamma_2$ on $\mathcal{A}(\mathcal{S})$ satisfying (1) then $$\gamma_1(E) = \gamma_2(E) \;; \forall E \in \mathcal{A}(\mathcal{S})$$
 **Proof**
 
-If $A \in \mathcal{A}(\mathcal{S})$ then $A = \bigcup_{j=1}^{n} A_j$ for $A_j \in \mathcal{S}, j = 1, \dots, n$,  [[Measure-Theory-Notes/Measure_Theory/Lecture 3#Proposition|Lecture 3]]
+If $A \in \mathcal{A}(\mathcal{S})$ then $A = \bigcup_{j=1}^{n} A_j$ for $A_j \in \mathcal{S}, j = 1, \dots, n$,  [[Measure_Theory/Lecture 3#Proposition|Lecture 3]]
 
 We define,
 
@@ -57,7 +62,11 @@ is a disjoint union of elements from $\mathcal{S}$.
 
 $$\implies \mu(E_j) = \sum_{k=1}^{m} \mu(E_j \cap F_k)$$
 
-Therefore, $$\gamma(A) = \sum_{j=1}^{n} \mu(E_j) = \sum_{j=1}^{n} \sum_{k=1}^{m} \mu(E_j \cap F_k)$$$$= \sum_{k=1}^{m} \sum_{j=1}^{n} \mu(E_j \cap F_k) = \sum_{k=1}^{m} \mu(F_k)$$
+Therefore, 
+
+$$\gamma(A) = \sum_{j=1}^{n} \mu(E_j) = \sum_{j=1}^{n} \sum_{k=1}^{m} \mu(E_j \cap F_k)$$
+
+$$= \sum_{k=1}^{m} \sum_{j=1}^{n} \mu(E_j \cap F_k) = \sum_{k=1}^{m} \mu(F_k)$$
 // Interchanging the role of $E_j$ and $F_k$ //
 
 Take $\{ A_j \}_{j=1}^n \subseteq \mathcal{F}$ such that $A_j \cap A_{j'} = \emptyset, j \neq j'$

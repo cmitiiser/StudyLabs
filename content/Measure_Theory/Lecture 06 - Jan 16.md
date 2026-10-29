@@ -1,10 +1,10 @@
-We have a $\sigma$ - additive ser function (pre - measure) on ,$\mathcal{A} \subseteq \mathcal{P}(\ohm)$
+We have a $\sigma$ - additive ser function (pre - measure) on ,$\mathcal{A} \subseteq \mathcal{P}(\Omega)$
 Then we defined 
 $$
 \mu^{*}(E) = \inf \left\{ \sum_{i=1}^{\infty} \mu(A_{i})\bigg| E \subseteq \bigcup_{i=1}^{\infty} , A_{i} \in \mathcal{A}, \forall i \right\}
 $$
 $$
-\mathcal{M} = \left\{A \subseteq \ohm \big|\mu^{*}(E) = \mu^{*}(E \cap A) + \mu^{*}(E \cap A^c), \forall E \in \ohm \right\}
+\mathcal{M} = \left\{A \subseteq \Omega \big|\mu^{*}(E) = \mu^{*}(E \cap A) + \mu^{*}(E \cap A^c), \forall E \in \Omega \right\}
 $$
 
 $\bullet A \subseteq \mathcal{M}$
