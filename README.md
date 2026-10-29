@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="quartz/static/og-image.png" alt="Chronoflip Logo" width="100%" height="auto">
+</p>
+
 <div align='center'>
 <h1>StudyLabs</h1>
 <img src='https://img.shields.io/badge/Quartz-jzhao-red'></img>
@@ -5,7 +9,7 @@
 <br><br><br>
 </div>
 
-A repository of lecture notes, problem sets, and working notes maintained by mathematics students at **IISER Thiruvananthapuram**. 
+A repository of lecture notes, problem sets, and working notes maintained by mathematics students at [**IISER Thiruvananthapuram**](https://iisertvm.ac.in). 
 
 Created and maintained by [SivasankaranRS](https://github.com/sivasankaranrs) and [AKwasTaken](https://github.com/akwastaken).
 
@@ -14,7 +18,7 @@ Created and maintained by [SivasankaranRS](https://github.com/sivasankaranrs) an
 
 ## Contributing
 
-If you want to add or fix notes, feel free to open a pull request or reach out directly. 
+If you want to add or fix notes, feel free to open a pull request or reach out directly to us, or to [CMIT](https://cmit.iisertvm.ac.in) via email.
 
 *Shared for educational purposes.*
 
