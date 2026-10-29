@@ -203,8 +203,8 @@ plugins:
     enabled: true
     options:
       links:
-        Website: https://cmit.iisertvm.ac.in/
-        Instagram: https://instagram.com/cmitiisertvm
+        CMIT: https://cmit.iisertvm.ac.in/
+        Github: https://github.com/cmitiiser/StudyLabs/
     layout:
       position: footer
       priority: 50
